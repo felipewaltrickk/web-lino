@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('.container-sucesso').css('display', 'block');
     });
 
-    $('#cadastroDisplay').click(function () {
+    $('#cadastrarDisplay').click(function () {
         $('#loginForm').css('display', 'none');
         $('#cadastroForm').css('display', 'block');
     });
