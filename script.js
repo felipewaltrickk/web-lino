@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('.container-sucesso').css('display', 'block');
     });
 
-    $('#cadastrarDisplay').click(function () {
+    $('#cadastroDisplay').click(function () {
         $('#loginForm').css('display', 'none');
         $('#cadastroForm').css('display', 'block');
     });
@@ -48,9 +48,6 @@ $('document').ready(() => {
     
 
 $('document').ready(() => {
-
-    
-    
 
     if(localStorage.getItem('Itemnome') == null || localStorage.getItem('Itemnome') == ''){
         $('.nome-produto').text('Carrinho vazio');
